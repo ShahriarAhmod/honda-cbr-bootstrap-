@@ -1,0 +1,17 @@
+.bg-color{
+    width: 100%;
+    background: #264653;
+    color: #FFFF;
+
+}
+.btn{
+    background: #E76F51;
+
+}
+.card-text{
+    color: #E76F51;
+
+}
+.bg-gray img{
+    filter: grayscale(100%);
+}
