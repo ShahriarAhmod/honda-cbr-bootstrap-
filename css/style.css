@@ -1,17 +1,28 @@
+/* common utilities */
 .bg-color{
     width: 100%;
     background: #264653;
     color: #FFFF;
-
 }
+/* header section */
 .btn{
     background: #E76F51;
 
 }
-.card-text{
+.line-text{
     color: #E76F51;
 
 }
+/* main section */
+/* Featured Bike section gray  */
 .bg-gray img{
     filter: grayscale(100%);
+}
+/* Clients Section */
+.filled{
+    color:#E77C40;
+    padding-right: 5px;
+}
+.empty{
+    color: #E77C40;
 }

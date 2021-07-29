@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Header section -->
     <header class="bg-color">
         <div class="container">
             <div class="row align-items-center justify-content-between">
@@ -29,11 +30,12 @@
         
                  
     </header>
+    <!-- Featured Bike section -->
     <main>
         <section class="container py-5">
             <div class="text-center">
                 <h1>Featured Bikes 2021</h1>
-                <p ><span class="card-text">Best bike collection</span></p>
+                <p ><span class="line-text">Best bike collection</span></p>
                 
             </div>
             
@@ -59,48 +61,145 @@
                     
             
         </section>
+        <!-- Clients Section -->
         <section class="container">
             <div class="text-center">
-                <h1>Happy <span class="card-text">Clients says</span></h1>
+                <h1>Happy <span class="line-text">Clients Says</span></h1>
             </div>
             <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                  <div class="card h-100">
-                    <img src="images/user-1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="col ">
+                    <div class="card h-100 px-5 py-5">
+                      <img style="width: 150px; height: 150px;" src="images/user-1.png" class="card-img-top img-fluid mx-auto" alt="...">
+                      <div class="text-center">
+                          <div class=" card-body">
+                        
+                              <p class="card-text">This bike is very awesome.i purchased this bike one month ago still it provide me a good service.</p>
+                            </div>
+                            <div class="d-flex justify-content-center my-3">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="far fa-star empty"></i>
+                            </div>
+                            <small class="fw-border text-primary py-5"> Justin Miller</small>
+                            <br>
+                            <small class="fw-border">Student</small>
+                            
+                         </div>
+                        </div>
+                      </div>
+                <div class="col ">
+                  <div class="card h-100 px-5 py-5">
+                    <img style="width: 150px; height: 150px;" src="images/user-2.png" class="card-img-top img-fluid mx-auto" alt="...">
+                    <div class="text-center">
+                        <div class=" card-body">
+                      
+                            <p class="card-text">I finally brought my dream bike.it's my dream to having this bike.The service is very good.</p>
+                          </div>
+                          <div class="d-flex justify-content-center my-3">
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="far fa-star empty"></i>
+                          </div>
+                          <small class="fw-border text-primary py-5"> Regina Miles</small>
+                          <br>
+                          <small class="fw-border">Banker</small>
+                        </div>
+                      </div>
                     </div>
-                    <div class="card-footer">
-                      <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <img src="images/user-2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <img src="images/user-3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
-                  </div>
-                </div>
+                   
+                    <div class="col ">
+                        <div class="card h-100 px-5 py-5">
+                          <img style="width: 150px; height: 150px;" src="images/user-3.png" class="card-img-top img-fluid mx-auto rounded-circle" alt="...">
+                          <div class="text-center">
+                              <div class=" card-body">
+                            
+                                  <p class="card-text">They provide me a good bike.bike was in vary condition.i would recommend to the customer.</p>
+                                </div>
+                                <div class="d-flex justify-content-center my-3">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="far fa-star empty"></i>
+                                </div>
+                                <small class="fw-border text-primary py-5"> Regina Miles</small>
+                                <br>
+                                <small class="fw-border">Rider</small>
+                                
+                             </div>
+                            </div>
+                          </div>
               </div>
+        </section>
+        <!-- FaQ section -->
+        <section class="container my-5">
+            <h1 class="fw-bolder text-center text-reset mt-5">Frequently Asked <span class="line-text">Questions</span></h1>
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6 mt-5 p-5">
+                    <img src="images/faq.png" alt="" class="w-100">
+                </div>
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item m-3 rounded-3">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What are the most important things I should
+                                know about riding a bike?
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item m-3">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How can I tell if my helmet is old and I need a 
+                                new one?
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                               
+                                If your helmet suffers any kind of impact, no matter how small, its protective qualities will be compromised. You should replace your helmet before riding again. Lastly, a riding helmet should fit snug on your head. If your helmet ever becomes too loose or too tight, it's time for a new one.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item m-3">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                My bike has been in storage is it safe to ride?
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Bikes that have not been used for more than six months are likely to see degradation of the oils and greases in them. If the vehicle is used after that it will need to be serviced first, replacing oil and coolant if needed.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item m-3">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What rules should I follow when riding my bike?
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Go With the Traffic Flow.Ride on the right in the same direction as other vehicles.
+                                Obey All Traffic Laws Yield to Traffic When Appropriate. Stay Alert at All Times.Look Before Turning.Watch for Parked Cars.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>   
+            </div>
+
         </section>
     </main>
      <!-- Modal -->
