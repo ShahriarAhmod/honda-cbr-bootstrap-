@@ -3,27 +3,20 @@
     background: #264653;
     color: #FFFF;
 }
-col-12{
-    padding-right: 0!important;
-    padding-left: 0!important;
-}
-
-.row{
-    margin-right: 0px;
-    margin-left: 0px; 
-}
 /* header section */
-.btn{
+.purchase-btn{
     background: #E76F51;
-
+    color: #FFFFFF;
+    padding: 10PX 45PX;
+    border: none;
+    border-radius: 5px;
 }
 .line-text{
     color: #E76F51;
-
 }
 /* main section */
 /* Featured Bike section gray  */
-.bg-gray img{
+.grayscale{
     filter: grayscale(100%);
 }
 /* Clients Section */
