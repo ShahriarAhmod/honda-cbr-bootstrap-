@@ -3,6 +3,15 @@
     background: #264653;
     color: #FFFF;
 }
+col-12{
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+
+.row{
+    margin-right: 0px;
+    margin-left: 0px; 
+}
 /* header section */
 .btn{
     background: #E76F51;
